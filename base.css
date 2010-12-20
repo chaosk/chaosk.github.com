@@ -1,0 +1,65 @@
+body {
+	/* Pattern from http://www.squidfingers.com/patterns/ */
+	background: #b1d4e5;
+	font-size: 16px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 0;
+}
+
+h1 {
+	border-bottom: thin dotted #999;
+	font-weight: normal;
+	margin: 0 0 20px;
+}
+
+a { color: #326ea1; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+li {
+	width: 170px;
+	margin: 30px;
+	display: inline-block;
+	text-align: center;
+}
+
+li a {
+	background: #eee;
+	font-size: 32px;
+	border: thin solid #ddd;
+	padding: 30px 10px;
+	width: 100%;
+	display: block;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+li a:hover {
+	background: #ddd;
+	border-color: #ccc;
+}
+
+#page {
+	background: #fff;
+	margin: 150px auto;
+	width: 500px;
+	padding: 20px;
+}
+
+#footer {
+	color: #666;
+	font-size: 70%;
+}
+
+.bottom, .right {
+	position: absolute;
+}
+
+.bottom { bottom: 20px; }
+.right { right: 20px; }
